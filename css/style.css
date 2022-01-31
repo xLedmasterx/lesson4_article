@@ -1,0 +1,88 @@
+/* &display=swap */
+
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Oswald:wght@700&display=swap");
+
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	src: url("../fonts/HelveticaNeueCyr-Thin.woff2") format("woff2"),
+		url("../fonts/HelveticaNeueCyr-ThinItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "HelveticaNeueCyr-ThinItalic";
+	src: url("../fonts/HelveticaNeueCyr-ThinItalic.woff2") format("woff2"),
+		url("../fonts/HelveticaNeueCyr-ThinItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "NeoTech";
+	src: url("../fonts/NeoTech.woff2") format("woff2"), url("../fonts/NeoTech.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+.content__text {
+	font-family: "NeoTech" serif;
+}
+.link {
+	color: fuchsia;
+}
+span {
+	color: #20e827;
+	font-weight: 900;
+	font-size: 23px;
+}
+.content__title {
+	font-weight: 700;
+	font-size: 30px;
+	color: #86c6e8;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 1px 2px 1px blue;
+}
+.content__public {
+	font-family: "HelveticaNeueCyr", sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+}
+.content__public span {
+	color: darkgreen;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+.content__data {
+	font-family: "HelveticaNeueCyr-ThinItalic", sans-serif;
+	font-size: 22px;
+	line-height: 26px;
+}
+.content__country {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: red;
+}
+
+.content__about {
+	line-height: 30px;
+	font-size: 20px;
+}
+.text__tool {
+	text-transform: capitalize;
+}
+.text__style {
+	font-style: oblique;
+}
+.text__next {
+	text-align: justify;
+	text-indent: 20px;
+	word-spacing: 13px;
+}
+.text__small {
+	text-transform: lowercase;
+}
