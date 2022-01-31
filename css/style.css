@@ -37,7 +37,13 @@
 span {
 	color: #7689e8;
 	font-weight: 900;
-	font-size: 23px;
+	font-size: 22px;
+	text-transform: none;
+	font-style: none;
+	text-align: none;
+	text-indent: none;
+	word-spacing: none;
+	text-transform: none;
 }
 .content__title {
 	font-weight: 700;
