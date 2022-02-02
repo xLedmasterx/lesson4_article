@@ -1,8 +1,9 @@
 /* &display=swap */
 
 @import "null.css";
+/* подключение шрифта Lato (GoogleFonts) */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Oswald:wght@700&display=swap");
-
+/* подключение шрифта HelveticaNeueCyr (GoogleFonts) */
 @font-face {
 	font-family: "HelveticaNeueCyr";
 	src: url("../fonts/HelveticaNeueCyr-Thin.woff2") format("woff2"),
@@ -11,7 +12,7 @@
 	font-style: normal;
 	font-display: swap;
 }
-
+/* подключение шрифта HelveticaNeueCyr-ThinItalic (GoogleFonts) */
 @font-face {
 	font-family: "HelveticaNeueCyr-ThinItalic";
 	src: url("../fonts/HelveticaNeueCyr-ThinItalic.woff2") format("woff2"),
@@ -20,7 +21,7 @@
 	font-style: italic;
 	font-display: swap;
 }
-
+/* подключение шрифта NeoTech (webfonts.pro) */
 @font-face {
 	font-family: "NeoTech";
 	src: url("../fonts/NeoTech.woff2") format("woff2"), url("../fonts/NeoTech.woff") format("woff");
@@ -29,66 +30,101 @@
 	font-display: swap;
 }
 .content__text {
+	/* шрифт NeoTech для блока content__text */
 	font-family: "NeoTech" serif;
 }
 .link {
+	/* цвет ссылки */
 	color: #50c878;
 }
 span {
+	/* цвет текста */
 	color: #7689e8;
+	/* насыщенность шрифта */
 	font-weight: 900;
+	/* размер шрифта */
 	font-size: 22px;
+	/* заглавные или прописные буквы */
 	text-transform: none;
+	/* начертание шрифта */
 	font-style: none;
+	/* горизонтальное выравнивание шрифта */
 	text-align: none;
+	/* величина отступа первой строки */
 	text-indent: none;
+	/* интервал между словами */
 	word-spacing: none;
-	text-transform: none;
 }
 .content__title {
+	/* насыщенность шрифта */
 	font-weight: 700;
+	/* размер шрифта */
 	font-size: 30px;
+	/* цвет текста */
 	color: #86c6e8;
+	/* выравнивание текста по тексту */
 	text-align: center;
+	/* нижнее подчеркивание */
 	text-decoration: underline;
+	/* тень текста */
 	text-shadow: 1px 2px 1px blue;
 }
 .content__public {
+	/* шрифт HelveticaNeueCyr для блока content__public */
 	font-family: "HelveticaNeueCyr", sans-serif;
+	/* размер текста */
 	font-size: 20px;
+	/* межстрочный интервал */
 	line-height: 20px;
 }
 .content__public span {
+	/* цвет текста */
 	color: darkgreen;
+	/* насыщенность текста */
 	font-weight: 700;
+	/* интервал между словами */
 	letter-spacing: 3px;
 }
 .content__data {
+	/* шрифт HelveticaNeueCyr-ThinItalic для блока content__data */
 	font-family: "HelveticaNeueCyr-ThinItalic", sans-serif;
+	/* размер текста */
 	font-size: 22px;
+	/* межстрочный интервал текста */
 	line-height: 26px;
 }
 .content__country {
+	/* все символы заглавные */
 	text-transform: uppercase;
+	/* насыщенность текста */
 	font-weight: 700;
+	/* цвет текста */
 	color: red;
 }
 
 .content__about {
+	/* межстрочный интервал */
 	line-height: 30px;
+	/* размер текста */
 	font-size: 20px;
 }
 .text__tool {
+	/* первый символ заглавный */
 	text-transform: capitalize;
 }
 .text__style {
+	/* наклонное начертание */
 	font-style: oblique;
 }
 .text__next {
+	/* выравнивание текста по всей ширине родителя */
 	text-align: justify;
+	/* отступ пкрвой строки блока текста */
 	text-indent: 20px;
+	/* интервал между словами */
 	word-spacing: 13px;
 }
 .text__small {
+	/* все символы текста прописные */
 	text-transform: lowercase;
 }
