@@ -31,7 +31,7 @@
 }
 .content__text {
 	/* шрифт NeoTech для блока content__text */
-	font-family: "NeoTech" serif;
+	font-family: "NeoTech", serif;
 }
 .link {
 	/* цвет ссылки */
@@ -47,13 +47,7 @@ span {
 	/* заглавные или прописные буквы */
 	text-transform: none;
 	/* начертание шрифта */
-	font-style: none;
-	/* горизонтальное выравнивание шрифта */
-	text-align: none;
-	/* величина отступа первой строки */
-	text-indent: none;
-	/* интервал между словами */
-	word-spacing: none;
+	font-style: inherit;
 }
 .content__title {
 	/* насыщенность шрифта */
